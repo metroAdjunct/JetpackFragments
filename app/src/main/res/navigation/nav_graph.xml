@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/biggestStatesList">
+    <fragment
+        android:id="@+id/biggestStatesList"
+        android:name="edu.msudenver.cs3013.jetpackfragments.ListFragment"
+        android:label="List"
+        tools:layout="@layout/fragment_list">
+        <action
+            android:id="@+id/biggest_states_id_action"
+            app:destination="@id/biggestState">
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/biggestState"
+        android:name="edu.msudenver.cs3013.jetpackfragments.DetailFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_detail">.
+    </fragment>
+</navigation>

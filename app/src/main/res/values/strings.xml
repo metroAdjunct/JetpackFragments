@@ -1,0 +1,19 @@
+<resources>
+<string name="app_name">JetpackFragments</string>
+<string name="hello_blank_fragment">Hello blank fragment</string>
+<string name="biggest_states">The Biggest States</string>
+<string name="capital">Capital City: %s</string>
+<string name="population">Population: %s</string>
+<string name="california">California</string>
+<string name="texas">Texas</string>
+<string name="florida">Florida</string>
+<string name="newyork">New York</string>
+<string name="pennsylvania">Pennsylvania</string>
+<string name="illinois">Illinois</string>
+<string name="ohio">Ohio</string>
+<string name="georgia">Georgia</string>
+<string name="northcarolina">North Carolina</string>
+<string name="michigan">Michigan</string>
+<string name="newjersey">New Jersey</string>
+<string name="virginia">Virginia</string>
+</resources>
